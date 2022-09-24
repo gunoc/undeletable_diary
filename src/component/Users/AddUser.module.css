@@ -29,7 +29,8 @@
     margin-bottom: 0.5rem;
   }
   .input input::placeholder{
-   /*  color: black; */
+    color: #000000;
+    font-size: 0.775rem;
   }
   
   .input input:focus {
