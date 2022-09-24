@@ -6,9 +6,9 @@ import UsersList from "./component/Users/UsersList";
 function App() {
   const [moviesList, setMoviesList] = useState([]);
 
-  const addMovieHandler = (mName, mStar) => {
+  const addMovieHandler = (mName, mStar,mReview) => {
     setMoviesList((prevMoviesList) => {
-      return [...prevMoviesList, { name: mName, star: mStar, id: Math.random().toString() }];
+      return [...prevMoviesList, { name: mName, star: mStar, review: mReview, id: Math.random().toString() }];
     });
   };
 

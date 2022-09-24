@@ -10,7 +10,7 @@ const UsersList = (props) => {
       <ul>
         {props.movies.map((movie) => (
           <li key={movie.id}>
-            {movie.name} ({movie.star} stars)
+            {movie.name} // {movie.star} stars <br /> {movie.review }
           </li>
         ))}
       </ul>
